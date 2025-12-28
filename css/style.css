@@ -196,7 +196,7 @@ header {
   text-justify: inter-word;
 }
 
-.p{
+p{
   text-indent: 2rem;
 }
 
@@ -611,4 +611,5 @@ footer {
      display: block ;
     font-size: 28px;
   }
+
 }
