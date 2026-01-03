@@ -65,6 +65,31 @@ header {
   color: #fff;
 }
 
+#beranda-image-only {
+  padding: 60px 8%;
+  background: #ffffff;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -613,3 +638,4 @@ footer {
   }
 
 }
+
